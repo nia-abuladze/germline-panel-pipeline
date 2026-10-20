@@ -1,0 +1,38 @@
+# Large or downloadable data: never commit
+ref/
+raw/
+truth/
+tools/
+work/
+fastq/
+logs/
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+*.cram
+*.crai
+*.sam
+*.vcf.gz
+*.vcf
+*.tbi
+*.csi
+*.fa
+*.fasta
+*.fna
+*.fa.gz
+*.fai
+*.dict
+*.sdf/
+*.gtf
+*.gtf.gz
+
+# Teaching notes kept outside the portfolio
+supervisor_notes*
+
+# OS / editor
+.DS_Store
+*.swp
+__pycache__/
